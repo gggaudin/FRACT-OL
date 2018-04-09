@@ -6,7 +6,7 @@
 /*   By: ggaudin- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/05 22:44:15 by ggaudin-          #+#    #+#             */
-/*   Updated: 2017/07/13 13:00:43 by ggaudin-         ###   ########.fr       */
+/*   Updated: 2018/04/09 17:20:21 by ggaudin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ void				drawfract(t_env *e)
 		if (e->pause == 1)
 		{
 			mlx_string_put(e->mlx, e->win, 100, 600, 0x00F9FE6B, "IT'S BATMAN");
-			system("afplay ~/Desktop/Mfractol/batman.mp3&");
+			system("afplay batman.mp3&");
 		}
 	}
 }
