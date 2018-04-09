@@ -6,7 +6,7 @@
 /*   By: ggaudin- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/15 11:26:22 by ggaudin-          #+#    #+#             */
-/*   Updated: 2017/07/07 12:57:17 by ggaudin-         ###   ########.fr       */
+/*   Updated: 2018/04/09 17:08:28 by ggaudin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ int						ft_keyhook(int keycode, t_env *e)
 		ft_reset(e);
 		return (0);
 	}
-	if (keycode == 3)
+	if (keycode == 3 && e->map != BATMAN)
 	{
 		e->act3d = 1;
 		restart(e);
